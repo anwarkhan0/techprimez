@@ -4,6 +4,8 @@ import { withTranslation, TFunction } from "react-i18next";
 import Container from "../../common/Container";
 import { SvgIcon } from "../../common/SvgIcon";
 import { Button } from "../../common/Button";
+// import Image from 'next/image';
+
 import {
   HeaderSection,
   LogoContainer,
@@ -59,7 +61,13 @@ const Header = ({ t }: { t: TFunction }) => {
       <Container>
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
-            <SvgIcon src="logo.svg" width="101px" height="64px" />
+            {/* <SvgIcon src="logo.svg" width="101px" height="64px" /> */}
+            <img
+              src="/logo.png" // Path relative to the 'public' folder
+              alt="Logo"
+              width={"140px"} // Specify the width
+              height={"auto"} // Specify the height
+            />
           </LogoContainer>
           <NotHidden>
             <MenuItem />
