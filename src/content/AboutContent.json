@@ -1,15 +1,15 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Why Partner with TechPrimez?",
+  "text": "At TechPrimez IT Services & Consultants, we offer customized IT solutions that address your unique business challenges. From software development to cybersecurity and IT support, we provide end-to-end services that drive growth, optimize performance, and enhance security. With a client-focused approach and a proven track record of success, we help businesses achieve their long-term goals with innovative and reliable technology solutions.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": " How do you ensure your solutions meet our specific needs?",
+      "content": "We take the time to understand your business goals, challenges, and processes, tailoring our services to fit your exact requirements. Our team works closely with you to develop solutions that address both short-term needs and long-term objectives.",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": " What makes TechPrimez different from other IT service providers?",
+      "content": "What sets us apart is our holistic approach and commitment to client success. We offer a complete suite of IT services under one roof, backed by experienced professionals and a customer-centric focus. Our solutions are designed to drive growth, optimize performance, and ensure ongoing support for your business.",
       "icon": "notes.svg"
     }
   ]

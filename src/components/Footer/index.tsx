@@ -56,7 +56,7 @@ const Footer = ({ t }: { t: TFunction }) => {
               <Para>
                 {t(`Do you have any question? Feel free to reach out.`)}
               </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
+              <a href="mailto:contact@techprimez.com">
                 <Chat>{t(`Let's Chat`)}</Chat>
               </a>
             </Col>
@@ -75,9 +75,9 @@ const Footer = ({ t }: { t: TFunction }) => {
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
               <Language>{t("Address")}</Language>
-              <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para>
+              <Para>Iqbal Plaza Kabal</Para>
+              <Para>Office No. 33</Para>
+              <Para>Swat</Para>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Company")}</Title>
@@ -119,32 +119,38 @@ const Footer = ({ t }: { t: TFunction }) => {
           >
             <NavLink to="/">
               <LogoContainer>
-                <SvgIcon
+                {/* <SvgIcon
                   src="logo.svg"
                   aria-label="homepage"
                   width="101px"
                   height="64px"
+                /> */}
+                <img
+                  src="/logo.png" // Path relative to the 'public' folder
+                  alt="Logo"
+                  width={"140px"} // Specify the width
+                  height={"auto"} // Specify the height
                 />
               </LogoContainer>
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
+                href="https://github.com/"
                 src="github.svg"
               />
               <SocialLink
-                href="https://twitter.com/Adrinlolx"
+                href="https://twitter.com/anwarsyed"
                 src="twitter.svg"
               />
               <SocialLink
-                href="https://www.linkedin.com/in/lasha-kakabadze/"
+                href="https://www.linkedin.com/in/"
                 src="linkedin.svg"
               />
               <SocialLink
-                href="https://medium.com/@lashakakabadze/"
+                href="https://medium.com/"
                 src="medium.svg"
               />
-              <a
+              {/* <a
                 href="https://ko-fi.com/Y8Y7H8BNJ"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -155,7 +161,7 @@ const Footer = ({ t }: { t: TFunction }) => {
                   src="https://storage.ko-fi.com/cdn/kofi3.png?v=3"
                   alt="Buy Me a Coffee at ko-fi.com"
                 />
-              </a>
+              </a> */}
             </FooterContainer>
           </Row>
         </Container>
